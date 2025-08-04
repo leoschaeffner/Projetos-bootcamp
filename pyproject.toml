@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "store_api"
+version = "0.1.0"
+description = "API da loja com TDD"
+authors = ["Leonardo Schaeffner <leonardoschaeffner@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.100.0"
+motor = "^3.1.2"
+pydantic = "^2.0.0"
+pytest = "^7.0.0"
+uvicorn = "^0.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
